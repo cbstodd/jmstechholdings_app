@@ -1,0 +1,40 @@
+//COLORS
+$lightGray: #f3f3f3;
+$white: #fff;
+$darkBlue: #003366;
+
+//MAIN
+
+
+body {
+  padding-top: 50px;
+
+}
+
+.navbar {
+  background-image: url('red_grid.png');
+}
+
+#header-links {
+  color: $lightGray;
+  &:hover {
+    color: $white;
+  }
+}
+
+#logo {
+  color: $lightGray;
+}
+
+#banner {
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid $darkBlue;
+}
+
+a li {
+  color: $darkBlue;
+  &:hover {
+    text-decoration: none;
+    font-weight: bold;
+  }
+}

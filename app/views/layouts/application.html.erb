@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JmstechholdingsApp</title>
+  <title>JMS | Techholdings <%= @page_title %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+
+  <div class="container">
+    <%= render 'layouts/header' %>
+    <%= image_tag 'jms_logo.png', id: "banner" %>
+    <%= yield %>
+    <%= render 'layouts/footer' %>
+  </div>
 
 </body>
 </html>

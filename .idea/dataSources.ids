@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails jmstechholdings_app: development" uuid="46812ce8-4e86-49cf-a361-74aaa591fd9f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails jmstechholdings_app: test" uuid="50aae9e5-3cea-443b-a732-c7e3926a4467">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails jmstechholdings_app: production" uuid="8dc34c3f-b38f-4b6a-abfb-515d7cfb9d17">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
