@@ -12,12 +12,10 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-left">
-        <li><%= link_to "Contact", '#', class: "fa fa-envelope",
-                        id: "header-links" %></a></li>
-        <li><%= link_to "About", '#', class: "fa fa-smile-o",
-                        id: "header-links" %></li>
-        <li><%= link_to "Blog", '#', class: "fa fa-align-left",
-                        id: "header-links" %></a></li>
+        <li><%= link_to "Contact", contact_path, class: "fa fa-envelope"
+        %></a></li>
+        <li><%= link_to "About", "#", class: "fa fa-smile-o" %></li>
+        <li><%= link_to "Posts", posts_path, class: "fa fa-align-left" %></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
 

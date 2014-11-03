@@ -16,5 +16,57 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
+$darkBlue: #003366;
+$darkRed: #661113;
+$gray: #777;
+$darkerGray: #555;
+$lightGray: #e7e7e7;
+$lighterGray: #f8f8f8;
 
+//FONTS
+
+h1, h2, h3, h4, h5, h6 {
+  color: $darkBlue;
+}
+
+/* navbar */
+.navbar-default {
+  background-color: $darkRed;
+  border-color: $darkRed;
+}
+/* title */
+.navbar-default .navbar-brand {
+  color: $lightGray;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: $lighterGray;
+  font-weight: normal;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+  color: $lightGray;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: $lightGray;
+  font-weight: normal;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color:  $lightGray;
+  background-color: $darkRed;
+  font-weight: normal;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: $darkBlue;
+  background-color: $darkRed;
+  font-weight: normal;
+}
+/* caret */

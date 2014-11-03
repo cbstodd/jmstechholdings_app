@@ -1,32 +1,14 @@
 //COLORS
-$lightGray: #f3f3f3;
-$white: #fff;
+
 $darkBlue: #003366;
 $darkRed: #661113;
 
-//MAIN
 
+//MAIN
 
 body {
   padding-top: 50px;
   background-image: url(noisy_grid.png);
-
-}
-
-.navbar {
-  background-color: $darkRed;
-  background-image: url('red_grid.png');
-}
-
-#header-links {
-  color: $lightGray;
-  &:hover {
-    color: $white;
-  }
-}
-
-#logo {
-  color: $lightGray;
 }
 
 #banner {
