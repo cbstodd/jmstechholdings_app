@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require owl.carousel
+ *= require owl.theme
  */
 
 @import "bootstrap-sprockets";
@@ -30,6 +32,15 @@ $lighterGray: #f8f8f8;
 
 h1, h2, h3, h4, h5, h6 {
   color: $darkBlue;
+}
+
+h1, h2 {
+  font-family: "Myrid Pro", "Trebuchet MS", Helvetica neue, Verdana, Arial, sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: Charter, Georgia, "Times New Roman", Times, serif;
+  
 }
 
 /* navbar */
@@ -65,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: $darkBlue;
+  color: $lightGray;
   background-color: $darkRed;
   font-weight: normal;
 }

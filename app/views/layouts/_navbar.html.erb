@@ -8,17 +8,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" id="logo" href="/">JMS|Technology Holdings</a>
+      <a class="navbar-brand" id="logo" href="/">JMS | Tech Holdings LLC.</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-left">
-        <li><%= link_to "Contact", contact_path, class: "fa fa-envelope"
-        %></a></li>
-        <li><%= link_to "About", "#", class: "fa fa-smile-o" %></li>
-        <li><%= link_to "Posts", posts_path, class: "fa fa-align-left" %></a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
-
+        <li><%= link_to "Contact", contact_path, class: "fa fa-envelope", id: "header-links-left" %></a></li>
+        <li><%= link_to "About", about_path, class: "fa fa-smile-o", id: "header-links-left" %></li>
+        <li><%= link_to "Blog", posts_path, class: "fa fa-align-left", id: "header-links-left" %></a></li>
       </ul>
     </div>
   </div>
